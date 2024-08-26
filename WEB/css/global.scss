@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Archivo Thin';
+    src: url('../fonts/Archivo-VariableFont_wdthwght.ttf') format('ttf'),
+    url('../fonts/Archivo-VariableFontwdthwght.woff') format('woff'),
+    url('../fonts/Archivo-VariableFontwdthwght.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  }
+
+  @font-face {
+    font-family: 'Myriad Pro Light';
+    src: url('../fonts/Myriad Pro Semibold.ttf') format('ttf'),
+    url('../fonts/myriad-pro-8.woff') format('woff'),
+    url('../fonts/myriad-pro-8.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Myriad Pro';
+    src: url('../fonts/MyriadPro-Bold') format('otf'),
+    url('../fonts/MyriadPro-Bold.woff') format('woff'),
+    url('../fonts/MyriadPro-Bold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 300;
+  }
+
+  @font-face {
+    font-family: 'Myriad Pro Bold';
+    src: url('../fonts/Myriad-Pro-Semibold.ttf') format('ttf'),
+    url('../fonts/Myriad-Pro-Semibold.woff') format('woff'),
+    url('../fonts/Myriad-Pro-Semibold.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 800;
+  }
+/*VARIABLES FUENTES*/
+
+$tipografia_texto: 'Archivo Thin';
+$tipografia_primario: 'Myriad Pro Bold';
+$tipografia_secundario: 'Myriad Pro';
+/*VARIABLE COLORES*/
+
+$color-primario: #172D52;
+$color-secundario: #9460F9;
+$color-fondo: #E4E4E4;
+$color-texto: #000;
+
+*{
+    margin: 0;
+    list-style: none;
+    color: unset;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;    
+}
+img{
+    display: block;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+    display: block;
+}
+.dis_flex{
+    flex-wrap: wrap;
+    display: flex;
+}
+.title{
+    font-size: 75px;
+    color: $color-primario;
+    font-family: $tipografia_primario;
+}
+.subtitle{
+    font-size: 23px;
+    color: $color-secundario;
+    font-family: $tipografia_texto;
+}
+p,ul,li,a{
+    font-family: $tipografia_texto;
+}
+h3{
+    font-size: 50px;
+    color: $color-primario;
+    font-family: $tipografia_primario;
+}
+p{
+    font-size: 20px;
+}
