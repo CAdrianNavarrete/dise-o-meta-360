@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meta 360</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Botón de WhatsApp -->
+        <a href="https://wa.me/5199999999" class="whatsapp-button" target="_blank">
+            <img src="img/wp.png" alt="WhatsApp">
+        </a>
+   <!-- Incluir el archivo script.js -->
+    <script src="slider.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#">Nosotros</a></li>
+                <li class="nav-item dropdown">
+                    <a href="#">Servicios</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Marketing</a></li>
+                        <li><a href="#">Arquitectura Publicitaria</a></li>
+                        <li><a href="#">Merchandising Textil</a></li>
+                        <li><a href="#">Impresiones Gráficas</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item logo"><a href="#"><img src="img/meta-logo.png" alt="Meta 360 Logo"></a></li>
+                <li class="nav-item dropdown">
+                    <a href="#">Proyectos</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Eventos</a></li>
+                        <li><a href="#">Portafolio</a></li>
+                        <li><a href="#">Capacitaciones</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item"><a href="#">Contacto</a></li>
+                <li class="nav-item social-media">
+                    <a href="#"><img src="img/fb-logo.png" alt="Facebook"></a>
+                    <a href="#"><img src="img/ig-logo.png" alt="Instagram"></a>
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    
+    <main>
+       <!-- Contenedor del slider -->
+       <div class="slider-container">
+        <div class="slide active">
+            <div class="slide-content">
+                <h2>MARKETING Y PUBLICIDAD</h2>
+                <h1>Creemos soluciones <br> publicitarias <br> para ti</h1>
+                <p>Somos una empresa con experiencia en elaboración y <br> creación de imagen institucional ligado a ideas publicitarias.</p>
+                <div class="cta-buttons">
+                    <button onclick="location.href='#'">Explorar más</button>
+                    <button onclick="location.href='#'">Cotizar</button>
+                </div>
+            </div>
+            <img src="img/Recurso 6.png" alt="Primera Imagen">
+        </div>
+        <div class="slide">
+            <div class="slide-content">
+                <h2>MARKETING Y PUBLICIDAD</h2>
+                <h1>Diseñamos y creamos <br> proyectos <br> publicitarios</h1>
+                <p>La dedicación a nuestro trabajo nos lleva a desarrollar proyectos <br> de calidad, somos un grupo de profesionales apasionados por <br> el diseño y arquitectura , plasmados en diferentes eventos <br> como:</p>
+                <ul class="custom-bullets">
+                    <li><br>Exposiciones</li>
+                    <li><br>Imagen corporativa</li>
+                    <li><br>Ambientes publicitarios</li>
+                    <li><br>Productos y artículos promocionales</li>
+                </ul>    
+                
+            </div>  
+            <img src="img/Recurso 6.png" alt="Segunda Imagen">
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+        <!--
+        <section class="hero">
+            <div class="hero-text">
+                <h4 class="subtitle">MARKETING Y PUBLICIDAD</h4>
+                <h1>Creemos soluciones publicitarias para ti</h1>
+                <p>Somos una empresa con experiencia en elaboración y creación de imagen institucional ligado a ideas publicitarias.</p>
+                <div class="buttons">
+                    <a href="#" class="btn-explore">Explorar más</a>
+                    <a href="#" class="btn-quote">Cotizar</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="img/Recurso 37.png" alt="Woman with Laptop">
+            </div>
+        </section>
+        -->
+
+        <section class="about-us">
+            <h4 class="section-subtitle">NOSOTROS</h4>
+            <h2>Meta 360</h2>
+            <p class="about-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis.</p>
+            <div class="statistics-container">
+                <div class="stat-item">
+                    <img src="img/Recurso 16.png" alt="Clientes Satisfechos">
+                    <h2>+25</h2>
+                    <p>CLIENTES SATISFECHOS</p>
+                </div>
+                <div class="stat-item">
+                    <img src="img/Recurso 17.png" alt="Proyectos Culminados">
+                    <h2>+100</h2>
+                    <p>PROYECTOS CULMINADOS</p>
+                </div>
+                <div class="stat-item">
+                    <img src="img/Recurso 18.png" alt="Años de Experiencia">
+                    <h2>+20</h2>
+                    <p>AÑOS DE EXPERIENCIA</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="services">
+            <h4 class="section-subtitle">SERVICIOS</h4>
+            <h2>Tenemos lo que buscas</h2>
+            <p class="services-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('img/Recurso\ 19.png');">
+                        <span class="service-badge">NUEVO</span>
+                    </div>
+                    <h3>Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <a href="#" class="btn-quote">Cotizar</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('img/Recurso\ 20.png');"></div>
+                    <h3>Arquitectura Publicitaria</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <a href="#" class="btn-quote">Cotizar</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('img/Recurso\ 21.png');"></div>
+                    <h3>Merchandising Textil</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <a href="#" class="btn-quote">Cotizar</a>
+                </div>
+                <div class="service-card">
+                    <div class="service-image" style="background-image: url('img/Recurso\ 22.png');"></div>
+                    <h3>Impresiones Gráficas</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur</p>
+                    <a href="#" class="btn-quote">Cotizar</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="clients">
+            <h4 class="section-subtitle">CLIENTES</h4>
+            <h2>Ellos confiaron en nosotros</h2>
+            <div class="clients-logos">
+                <img src="img/Recurso 59.png" alt="Esan">
+                <img src="img/Recurso 57.png" alt="Fazil">
+                <img src="img/Recurso 56.png" alt="Stringnet">
+                <img src="img/Recurso 58.png" alt="Tottus">
+            </div>
+            <div class="carousel-indicators">
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+                <span class="indicator"></span>
+            </div>
+        </section>
+    
+      <!-- Secciones anteriores Formulario -->
+        
+         <section class="contact-us">
+                <div class="contact-form-container">
+                    <h2>Contáctanos</h2>
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="first-name">Nombres</label>
+                                <input type="text" id="first-name" name="first-name">
+                            </div>
+                            <div class="form-group">
+                                <label for="last-name">Apellidos</label>
+                                <input type="text" id="last-name" name="last-name">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Correo</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Celular</label>
+                                <input type="tel" id="phone" name="phone">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="ruc">RUC</label>
+                                <input type="text" id="ruc" name="ruc">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Razón Social</label>
+                                <input type="text" id="company" name="company">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group full-width">
+                                <label for="service">¿Qué servicio necesitas?</label>
+                                <select id="service" name="service">
+                                    <option value="">Selecciona</option>
+                                    <option value="marketing">Marketing</option>
+                                    <option value="publicidad">Publicidad</option>
+                                    <option value="diseño">Diseño</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group full-width">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message"></textarea>
+                            </div>
+                        </div>
+                        <button type="submit" class="submit-button">CONTACTAR</button>
+                    </form>
+                    <img src="img/Recurso 37.png" alt="Imagen de contacto" class="contact-image">
+
+                </div>
+         </section>
+      
+        
+    </main>
+</body>
+<footer>
+    <div class="footer-container">
+        <div class="footer-section logo-and-links">
+            <img src="img/meta-logo.png" alt="Meta 360 Logo">
+            <ul>
+                <li><a href="#">Nosotros</a></li>
+                <li><a href="#">Servicios</a></li>
+                <li><a href="#">Proyectos</a></li>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Políticas de Privacidad</a></li>
+            </ul>
+            <div class="social-media">
+                <a href="#"><img src="img/fb-logo.png" alt="Facebook"></a>
+                <a href="#"><img src="img/ig-logo.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-section informes">
+            <h4>Informes</h4>
+            <p><img src="img/iphone.png" alt="Teléfono"> +51 970 868 313</p>
+            <p><img src="img/telefono.png" alt="Teléfono"> (01) 970 868 313</p>
+            <p><img src="img/correo.png" alt="Correo"> ahidalgo@meta360.com.pe</p>
+            <p><img src="img/gps.png" alt="Ubicación"> Cal. Creta MZ B12 Lote 23,<br> Los Cedros de Villa - Chorrillos</p>
+        </div>
+        <div class="footer-section horarios">
+            <h4>Horarios</h4>
+            <p><img src="img/calendar.png" alt="Calendario"> Lunes a Viernes</p>
+            <p>08:00 AM - 06:00 PM</p>
+        </div>
+        <div class="footer-section servicios">
+            <h4>Servicios</h4>
+            <p>Marketing</p>
+            <p>Arquitectura Publicitaria</p>
+            <p>Merchandising Textil</p>
+            <p>Impresiones Gráficas</p>
+        </div>
+        
+    </div>
+         <div class="footer-container">
+                <!-- Secciones del footer -->
+        </div>
+         <div class="footer-bottom">
+                    <p>META 360 © TODOS LOS DERECHOS RESERVADOS 2024</p>
+         </div>
+         
+</footer>
+
+</html>
